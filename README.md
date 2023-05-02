@@ -107,4 +107,5 @@ This is a web application that provides a login and registration page. Users can
 See also the list of [contributors](https://github.com/Swappy1995/The-Documentation-Compendium/contributors) who participated in this project.
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
+- Instruct me for project - @junniedennysoloman
 - References-Skill-Lync
