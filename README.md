@@ -61,16 +61,12 @@ To create a login and registration page using JSP, Servlet, MySQL, and JDBC, you
 
 10.Deploy the application to the Tomcat web server and test it.
 ### Prerequisites
-1. Download Apache Tomcat 9.0
- Go to Internet Search Appache Tomcat 9 on Google Using Apache 
-Website Download Apache Tomacat 9
- Go to Eclipse When Create Web Project Select Apache Tomcat 9 
-and Select Folder we have downloaded browse it and add then click 
-on Finish.
+To run this application, you will need:
 
-```
-Download Software
-```
+1.Java Development Kit (JDK) version 8 or higher
+2.Apache Tomcat version 8 or higher
+3.MySQL database server
+
 
 ### Installing
 
@@ -79,34 +75,31 @@ Download Software
 -Import the provided JDBC driver into your project.
 
 ## 🔧 Running the tests <a name = "tests"></a>
-Explain how to run the automated tests for this system.
+1.Install MySQL on your system and create a database for your project.
+2.Download and install a Java Development Kit (JDK) on your system if you haven't already.
+3.Download and install an Integrated Development Environment (IDE) for Java, such as Eclipse or IntelliJ IDEA.
+4.Create a new Java web project in your IDE.
+5.Add the required JSP and servlet libraries to your project's classpath.
+6.Create the necessary JSP pages for your login and registration forms.
+7.Write the servlets to handle the form submissions and interact with the MySQL database using JDBC.
+8.Configure your MySQL database connection in your project.
+9.Run your project in your local server and test the login and registration functionality.
 
-### Break down into end to end tests
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ## 🎈 Usage <a name="usage"></a>
-To use the Signup Web Page, simply navigate to the registration page and enter user personal information, including your name, email address, and password. Once submitted, user information will be stored in the database, and user will be redirected to the sign-in page. On the sign-in page, enter your email address and password to access your account.
--Navigate to the login page and enter your credentials to log in.
--If you don't have an account, navigate to the registration page and create a new account.
--After logging in or registering, you will be redirected to the homepage of the application.
-
+1.Open a web browser and navigate to the URL where you deployed the application.
+2.Click the "Register" link to create a new account.
+3.Enter your username, email address, and password and click the "Register" button.
+4.Log in to the application using your username and password.
+5.You should be redirected to a welcome page that displays your username.
 ## 🚀 Deployment <a name = "deployment"></a>
-
+This is a web application that provides a login and registration page. Users can register for an account by providing a username, email address, and password. Once registered, users can log in to the application using their username and password.
 
 ## ⛏️ Built Using <a name = "built_using"></a>
-- [Java](https://www.java.com/) - Language
-- [MySQL](https://www.mysql.com/) - Database
+1.Java Servlets
+2.JavaServer Pages (JSP)
+3.MySQL
+4.JDBC
 
 ## ✍️ Authors <a name = "authors"></a>
 - [@Swapnil Jadhav](https://github.com/Swappy1995) - Idea & Initial work
